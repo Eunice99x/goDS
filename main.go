@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/YounesOuterbah/goDS.git/stack"
+)
+
+type Stack []string
 
 func main() {
-	fmt.Print("DS WITH GO")
+	fmt.Println("Data Structures Using Go")
+	// --- #################################### --- //
+	stack.StackDs()
 }

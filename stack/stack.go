@@ -33,12 +33,13 @@ func StackDs() {
 
 	stack.Push("Data Structures")
 	stack.Push("Golang")
+	stack.Push("Stack")
 
-	for _, val := range stack {
-		fmt.Println(val)
+	for i, val := range stack {
+		fmt.Println(i, val)
 	}
 	stack.Pop()
-	for _, val := range stack {
-		fmt.Println(val)
+	for i, val := range stack {
+		fmt.Println(i, val)
 	}
 }

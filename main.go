@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	linkedlist "github.com/YounesOuterbah/goDS.git/linked-list"
 	"github.com/YounesOuterbah/goDS.git/queue"
 	"github.com/YounesOuterbah/goDS.git/stack"
 )
@@ -16,4 +17,12 @@ func main() {
 	stack.StackDs()
 	fmt.Println("#################################### ")
 	queue.QueueDs()
+	fmt.Println("#################################### ")
+	linkedlist.L.Add(1)
+	linkedlist.L.Add(2)
+	linkedlist.L.Add(3)
+	fmt.Println(linkedlist.L)
+	fmt.Println(linkedlist.L.Get(1))
+	linkedlist.L.Remove(2)
+	fmt.Println(linkedlist.L)
 }

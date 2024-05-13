@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/YounesOuterbah/goDS.git/hashtable"
 	linkedlist "github.com/YounesOuterbah/goDS.git/linked-list"
 	"github.com/YounesOuterbah/goDS.git/queue"
 	"github.com/YounesOuterbah/goDS.git/stack"
@@ -25,4 +26,6 @@ func main() {
 	fmt.Println(linkedlist.L.Get(1))
 	linkedlist.L.Remove(2)
 	fmt.Println(linkedlist.L)
+	fmt.Println("#################################### ")
+	hashtable.Hash()
 }
